@@ -1,0 +1,10 @@
+^C:\PROJECTS\FLUTTER\SRC\SECOND_APP\WINDOWS\CMAKELISTS.TXT
+setlocal
+"C:\Apps\Microsoft Visual Studio\2019\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -SC:/PROJECTS/FLUTTER/src/second_app/windows -BC:/PROJECTS/FLUTTER/src/second_app/build/windows --check-stamp-file C:/PROJECTS/FLUTTER/src/second_app/build/windows/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
