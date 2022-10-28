@@ -1,2 +1,0 @@
-C:\PROJECTS\FLUTTER\src\second_app\build\windows\flutter\Debug\flutter_wrapper_plugin.pdb
-C:\PROJECTS\FLUTTER\src\second_app\build\windows\flutter\flutter_wrapper_plugin.dir\Debug\flutter_wrapper_plugin.pdb
