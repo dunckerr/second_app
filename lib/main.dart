@@ -65,12 +65,9 @@ class _MyAppState extends State<MyApp> {
               onPressed: () => answerQuestion(), //ANON CB FUNC
             ),
             ElevatedButton(
-                child: Text('Answer 3'),
-                onPressed: () => {
-                      // ANON CB WITH BODY
-                      print('button pressed 3');
-                      answerQuestion();
-                    }),
+              child: Text('Answer 3'),
+              onPressed: () => answerQuestion(), //ANON CB FUNC
+            ),
           ],
         ),
       ),
